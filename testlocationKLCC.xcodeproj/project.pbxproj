@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C5CDED1D584B7300EE011F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5CDEC1D584B7300EE011F /* main.m */; };
+		14C5CDF01D584B7300EE011F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5CDEF1D584B7300EE011F /* AppDelegate.m */; };
+		14C5CDF21D584B7300EE011F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CDF11D584B7300EE011F /* art.scnassets */; };
+		14C5CDF51D584B7300EE011F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5CDF41D584B7300EE011F /* GameViewController.m */; };
+		14C5CDF81D584B7300EE011F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CDF61D584B7300EE011F /* Main.storyboard */; };
+		14C5CDFA1D584B7300EE011F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CDF91D584B7300EE011F /* Assets.xcassets */; };
+		14C5CDFD1D584B7300EE011F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CDFB1D584B7300EE011F /* LaunchScreen.storyboard */; };
+		14C5CE081D584B7300EE011F /* testlocationKLCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5CE071D584B7300EE011F /* testlocationKLCCTests.m */; };
+		14C5CE131D584B7300EE011F /* testlocationKLCCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5CE121D584B7300EE011F /* testlocationKLCCUITests.m */; };
+		14C5CE211D584BF400EE011F /* 1KLConventionCenterParkEntrance.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE201D584BF400EE011F /* 1KLConventionCenterParkEntrance.gpx */; };
+		14C5CE231D5870FC00EE011F /* 2TheDinoPetrosainsMural.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE221D5870FC00EE011F /* 2TheDinoPetrosainsMural.gpx */; };
+		14C5CE251D5872AE00EE011F /* 3TamanKLCCMap.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE241D5872AE00EE011F /* 3TamanKLCCMap.gpx */; };
+		14C5CE291D58733F00EE011F /* 4MosaicCafeWaterFeature.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE281D58733F00EE011F /* 4MosaicCafeWaterFeature.gpx */; };
+		14C5CE2B1D5874E800EE011F /* 5LakeSymphonyKLCC.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE2A1D5874E800EE011F /* 5LakeSymphonyKLCC.gpx */; };
+		14C5CE2D1D5877FB00EE011F /* 6DomeOfShoppingKLCC.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE2C1D5877FB00EE011F /* 6DomeOfShoppingKLCC.gpx */; };
+		14C5CE2F1D5878BF00EE011F /* 7PsisGiantFoot.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE2E1D5878BF00EE011F /* 7PsisGiantFoot.gpx */; };
+		14C5CE311D5879E300EE011F /* 8MadarinOrientalWaterfallFountain.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE301D5879E300EE011F /* 8MadarinOrientalWaterfallFountain.gpx */; };
+		14C5CE331D587A9B00EE011F /* 9TripletsHeartWallArt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE321D587A9B00EE011F /* 9TripletsHeartWallArt.gpx */; };
+		14C5CE361D588CEC00EE011F /* 10MosqueInsignia.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE351D588CEC00EE011F /* 10MosqueInsignia.gpx */; };
+		14C5CE381D588D4A00EE011F /* 11TamanKLCCDirectory.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE371D588D4A00EE011F /* 11TamanKLCCDirectory.gpx */; };
+		14C5CE3A1D588DA800EE011F /* 12StillHappyAtNight.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE391D588DA800EE011F /* 12StillHappyAtNight.gpx */; };
+		14C5CE3C1D588EA700EE011F /* 13SayangiTamanAnda.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE3B1D588EA700EE011F /* 13SayangiTamanAnda.gpx */; };
+		14C5CE3E1D588F3000EE011F /* 14Atoms.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE3D1D588F3000EE011F /* 14Atoms.gpx */; };
+		14C5CE401D5890E300EE011F /* 15WaterDispenserKLCC.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE3F1D5890E300EE011F /* 15WaterDispenserKLCC.gpx */; };
+		14C5CE421D5891AB00EE011F /* 22_1PetronaTowersViewedFromJalanBinjai.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE411D5891AB00EE011F /* 22_1PetronaTowersViewedFromJalanBinjai.gpx */; };
+		14C5CE441D5893B900EE011F /* 16WatchTower.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE431D5893B900EE011F /* 16WatchTower.gpx */; };
+		14C5CE461D58960D00EE011F /* 17LittleTortoise.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE451D58960D00EE011F /* 17LittleTortoise.gpx */; };
+		14C5CE481D5897BE00EE011F /* 18FlowerPatternFloor.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE471D5897BE00EE011F /* 18FlowerPatternFloor.gpx */; };
+		14C5CE4A1D5898A000EE011F /* 19ColourfulPlayground.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE491D5898A000EE011F /* 19ColourfulPlayground.gpx */; };
+		14C5CE4C1D589A7700EE011F /* 20GiantFoot.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE4B1D589A7700EE011F /* 20GiantFoot.gpx */; };
+		14C5CE4E1D589AC000EE011F /* 21KLCCParkTumpuanUnggasFountain.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE4D1D589AC000EE011F /* 21KLCCParkTumpuanUnggasFountain.gpx */; };
+		14C5CE501D589B8500EE011F /* 22PortableWaterFountain2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE4F1D589B8500EE011F /* 22PortableWaterFountain2.gpx */; };
+		14C5CE521D58A07B00EE011F /* 23StonorFountain.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE511D58A07B00EE011F /* 23StonorFountain.gpx */; };
+		14C5CE541D58A2DA00EE011F /* 24ReflectingPool.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE531D58A2DA00EE011F /* 24ReflectingPool.gpx */; };
+		14C5CE561D58B86600EE011F /* 25TamanKLCC.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE551D58B86600EE011F /* 25TamanKLCC.gpx */; };
+		14C5CE581D58B92E00EE011F /* 26TamanKLCC2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE571D58B92E00EE011F /* 26TamanKLCC2.gpx */; };
+		14C5CE5A1D58B97A00EE011F /* 27WaterfallInThePark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE591D58B97A00EE011F /* 27WaterfallInThePark.gpx */; };
+		14C5CE5C1D58BA4E00EE011F /* 28FountainOfFlexibleShapes.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE5B1D58BA4E00EE011F /* 28FountainOfFlexibleShapes.gpx */; };
+		14C5CE5E1D58BAD800EE011F /* 29KLCCSquarePools.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE5D1D58BAD800EE011F /* 29KLCCSquarePools.gpx */; };
+		14C5CE601D58BB3C00EE011F /* 30KLCCParkGarden.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE5F1D58BB3C00EE011F /* 30KLCCParkGarden.gpx */; };
+		14C5CE621D58BB8A00EE011F /* 31AGeniusNural.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE611D58BB8A00EE011F /* 31AGeniusNural.gpx */; };
+		14C5CE641D58BBE700EE011F /* 32KLCCPark.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE631D58BBE700EE011F /* 32KLCCPark.gpx */; };
+		14C5CE661D58BC8300EE011F /* 3_2XMFountain.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE651D58BC8300EE011F /* 3_2XMFountain.gpx */; };
+		14C5CE681D58C54000EE011F /* 1_1HammerShardStatue.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CE671D58C54000EE011F /* 1_1HammerShardStatue.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14C5CE041D584B7300EE011F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C5CDE01D584B7300EE011F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C5CDE71D584B7300EE011F;
+			remoteInfo = testlocationKLCC;
+		};
+		14C5CE0F1D584B7300EE011F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14C5CDE01D584B7300EE011F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C5CDE71D584B7300EE011F;
+			remoteInfo = testlocationKLCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C5CDE81D584B7300EE011F /* testlocationKLCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testlocationKLCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C5CDEC1D584B7300EE011F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14C5CDEE1D584B7300EE011F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14C5CDEF1D584B7300EE011F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14C5CDF11D584B7300EE011F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		14C5CDF31D584B7300EE011F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		14C5CDF41D584B7300EE011F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		14C5CDF71D584B7300EE011F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14C5CDF91D584B7300EE011F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14C5CDFC1D584B7300EE011F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14C5CDFE1D584B7300EE011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C5CE031D584B7300EE011F /* testlocationKLCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testlocationKLCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C5CE071D584B7300EE011F /* testlocationKLCCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testlocationKLCCTests.m; sourceTree = "<group>"; };
+		14C5CE091D584B7300EE011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C5CE0E1D584B7300EE011F /* testlocationKLCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testlocationKLCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C5CE121D584B7300EE011F /* testlocationKLCCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testlocationKLCCUITests.m; sourceTree = "<group>"; };
+		14C5CE141D584B7300EE011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C5CE201D584BF400EE011F /* 1KLConventionCenterParkEntrance.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1KLConventionCenterParkEntrance.gpx; sourceTree = "<group>"; };
+		14C5CE221D5870FC00EE011F /* 2TheDinoPetrosainsMural.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 2TheDinoPetrosainsMural.gpx; sourceTree = "<group>"; };
+		14C5CE241D5872AE00EE011F /* 3TamanKLCCMap.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3TamanKLCCMap.gpx; sourceTree = "<group>"; };
+		14C5CE281D58733F00EE011F /* 4MosaicCafeWaterFeature.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 4MosaicCafeWaterFeature.gpx; sourceTree = "<group>"; };
+		14C5CE2A1D5874E800EE011F /* 5LakeSymphonyKLCC.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 5LakeSymphonyKLCC.gpx; sourceTree = "<group>"; };
+		14C5CE2C1D5877FB00EE011F /* 6DomeOfShoppingKLCC.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 6DomeOfShoppingKLCC.gpx; sourceTree = "<group>"; };
+		14C5CE2E1D5878BF00EE011F /* 7PsisGiantFoot.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 7PsisGiantFoot.gpx; sourceTree = "<group>"; };
+		14C5CE301D5879E300EE011F /* 8MadarinOrientalWaterfallFountain.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 8MadarinOrientalWaterfallFountain.gpx; sourceTree = "<group>"; };
+		14C5CE321D587A9B00EE011F /* 9TripletsHeartWallArt.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 9TripletsHeartWallArt.gpx; sourceTree = "<group>"; };
+		14C5CE351D588CEC00EE011F /* 10MosqueInsignia.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 10MosqueInsignia.gpx; sourceTree = "<group>"; };
+		14C5CE371D588D4A00EE011F /* 11TamanKLCCDirectory.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 11TamanKLCCDirectory.gpx; sourceTree = "<group>"; };
+		14C5CE391D588DA800EE011F /* 12StillHappyAtNight.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 12StillHappyAtNight.gpx; sourceTree = "<group>"; };
+		14C5CE3B1D588EA700EE011F /* 13SayangiTamanAnda.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 13SayangiTamanAnda.gpx; sourceTree = "<group>"; };
+		14C5CE3D1D588F3000EE011F /* 14Atoms.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 14Atoms.gpx; sourceTree = "<group>"; };
+		14C5CE3F1D5890E300EE011F /* 15WaterDispenserKLCC.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 15WaterDispenserKLCC.gpx; sourceTree = "<group>"; };
+		14C5CE411D5891AB00EE011F /* 22_1PetronaTowersViewedFromJalanBinjai.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 22_1PetronaTowersViewedFromJalanBinjai.gpx; sourceTree = "<group>"; };
+		14C5CE431D5893B900EE011F /* 16WatchTower.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 16WatchTower.gpx; sourceTree = "<group>"; };
+		14C5CE451D58960D00EE011F /* 17LittleTortoise.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 17LittleTortoise.gpx; sourceTree = "<group>"; };
+		14C5CE471D5897BE00EE011F /* 18FlowerPatternFloor.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 18FlowerPatternFloor.gpx; sourceTree = "<group>"; };
+		14C5CE491D5898A000EE011F /* 19ColourfulPlayground.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 19ColourfulPlayground.gpx; sourceTree = "<group>"; };
+		14C5CE4B1D589A7700EE011F /* 20GiantFoot.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 20GiantFoot.gpx; sourceTree = "<group>"; };
+		14C5CE4D1D589AC000EE011F /* 21KLCCParkTumpuanUnggasFountain.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 21KLCCParkTumpuanUnggasFountain.gpx; sourceTree = "<group>"; };
+		14C5CE4F1D589B8500EE011F /* 22PortableWaterFountain2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 22PortableWaterFountain2.gpx; sourceTree = "<group>"; };
+		14C5CE511D58A07B00EE011F /* 23StonorFountain.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 23StonorFountain.gpx; sourceTree = "<group>"; };
+		14C5CE531D58A2DA00EE011F /* 24ReflectingPool.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 24ReflectingPool.gpx; sourceTree = "<group>"; };
+		14C5CE551D58B86600EE011F /* 25TamanKLCC.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 25TamanKLCC.gpx; sourceTree = "<group>"; };
+		14C5CE571D58B92E00EE011F /* 26TamanKLCC2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 26TamanKLCC2.gpx; sourceTree = "<group>"; };
+		14C5CE591D58B97A00EE011F /* 27WaterfallInThePark.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 27WaterfallInThePark.gpx; sourceTree = "<group>"; };
+		14C5CE5B1D58BA4E00EE011F /* 28FountainOfFlexibleShapes.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 28FountainOfFlexibleShapes.gpx; sourceTree = "<group>"; };
+		14C5CE5D1D58BAD800EE011F /* 29KLCCSquarePools.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 29KLCCSquarePools.gpx; sourceTree = "<group>"; };
+		14C5CE5F1D58BB3C00EE011F /* 30KLCCParkGarden.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 30KLCCParkGarden.gpx; sourceTree = "<group>"; };
+		14C5CE611D58BB8A00EE011F /* 31AGeniusNural.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 31AGeniusNural.gpx; sourceTree = "<group>"; };
+		14C5CE631D58BBE700EE011F /* 32KLCCPark.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 32KLCCPark.gpx; sourceTree = "<group>"; };
+		14C5CE651D58BC8300EE011F /* 3_2XMFountain.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3_2XMFountain.gpx; sourceTree = "<group>"; };
+		14C5CE671D58C54000EE011F /* 1_1HammerShardStatue.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1_1HammerShardStatue.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C5CDE51D584B7300EE011F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C5CE001D584B7300EE011F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C5CE0B1D584B7300EE011F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C5CDDF1D584B7300EE011F = {
+			isa = PBXGroup;
+			children = (
+				14C5CE201D584BF400EE011F /* 1KLConventionCenterParkEntrance.gpx */,
+				14C5CE671D58C54000EE011F /* 1_1HammerShardStatue.gpx */,
+				14C5CE221D5870FC00EE011F /* 2TheDinoPetrosainsMural.gpx */,
+				14C5CE241D5872AE00EE011F /* 3TamanKLCCMap.gpx */,
+				14C5CE651D58BC8300EE011F /* 3_2XMFountain.gpx */,
+				14C5CE281D58733F00EE011F /* 4MosaicCafeWaterFeature.gpx */,
+				14C5CE2A1D5874E800EE011F /* 5LakeSymphonyKLCC.gpx */,
+				14C5CE2C1D5877FB00EE011F /* 6DomeOfShoppingKLCC.gpx */,
+				14C5CE2E1D5878BF00EE011F /* 7PsisGiantFoot.gpx */,
+				14C5CE301D5879E300EE011F /* 8MadarinOrientalWaterfallFountain.gpx */,
+				14C5CE321D587A9B00EE011F /* 9TripletsHeartWallArt.gpx */,
+				14C5CE351D588CEC00EE011F /* 10MosqueInsignia.gpx */,
+				14C5CE371D588D4A00EE011F /* 11TamanKLCCDirectory.gpx */,
+				14C5CE391D588DA800EE011F /* 12StillHappyAtNight.gpx */,
+				14C5CE3B1D588EA700EE011F /* 13SayangiTamanAnda.gpx */,
+				14C5CE3D1D588F3000EE011F /* 14Atoms.gpx */,
+				14C5CE3F1D5890E300EE011F /* 15WaterDispenserKLCC.gpx */,
+				14C5CE431D5893B900EE011F /* 16WatchTower.gpx */,
+				14C5CE451D58960D00EE011F /* 17LittleTortoise.gpx */,
+				14C5CE471D5897BE00EE011F /* 18FlowerPatternFloor.gpx */,
+				14C5CE491D5898A000EE011F /* 19ColourfulPlayground.gpx */,
+				14C5CE4B1D589A7700EE011F /* 20GiantFoot.gpx */,
+				14C5CE4D1D589AC000EE011F /* 21KLCCParkTumpuanUnggasFountain.gpx */,
+				14C5CE4F1D589B8500EE011F /* 22PortableWaterFountain2.gpx */,
+				14C5CE411D5891AB00EE011F /* 22_1PetronaTowersViewedFromJalanBinjai.gpx */,
+				14C5CE511D58A07B00EE011F /* 23StonorFountain.gpx */,
+				14C5CE531D58A2DA00EE011F /* 24ReflectingPool.gpx */,
+				14C5CE551D58B86600EE011F /* 25TamanKLCC.gpx */,
+				14C5CE571D58B92E00EE011F /* 26TamanKLCC2.gpx */,
+				14C5CE591D58B97A00EE011F /* 27WaterfallInThePark.gpx */,
+				14C5CE5B1D58BA4E00EE011F /* 28FountainOfFlexibleShapes.gpx */,
+				14C5CE5D1D58BAD800EE011F /* 29KLCCSquarePools.gpx */,
+				14C5CE5F1D58BB3C00EE011F /* 30KLCCParkGarden.gpx */,
+				14C5CE611D58BB8A00EE011F /* 31AGeniusNural.gpx */,
+				14C5CE631D58BBE700EE011F /* 32KLCCPark.gpx */,
+				14C5CDEA1D584B7300EE011F /* testlocationKLCC */,
+				14C5CE061D584B7300EE011F /* testlocationKLCCTests */,
+				14C5CE111D584B7300EE011F /* testlocationKLCCUITests */,
+				14C5CDE91D584B7300EE011F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C5CDE91D584B7300EE011F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C5CDE81D584B7300EE011F /* testlocationKLCC.app */,
+				14C5CE031D584B7300EE011F /* testlocationKLCCTests.xctest */,
+				14C5CE0E1D584B7300EE011F /* testlocationKLCCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C5CDEA1D584B7300EE011F /* testlocationKLCC */ = {
+			isa = PBXGroup;
+			children = (
+				14C5CDEE1D584B7300EE011F /* AppDelegate.h */,
+				14C5CDEF1D584B7300EE011F /* AppDelegate.m */,
+				14C5CDF11D584B7300EE011F /* art.scnassets */,
+				14C5CDF31D584B7300EE011F /* GameViewController.h */,
+				14C5CDF41D584B7300EE011F /* GameViewController.m */,
+				14C5CDF61D584B7300EE011F /* Main.storyboard */,
+				14C5CDF91D584B7300EE011F /* Assets.xcassets */,
+				14C5CDFB1D584B7300EE011F /* LaunchScreen.storyboard */,
+				14C5CDFE1D584B7300EE011F /* Info.plist */,
+				14C5CDEB1D584B7300EE011F /* Supporting Files */,
+			);
+			path = testlocationKLCC;
+			sourceTree = "<group>";
+		};
+		14C5CDEB1D584B7300EE011F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C5CDEC1D584B7300EE011F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14C5CE061D584B7300EE011F /* testlocationKLCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				14C5CE071D584B7300EE011F /* testlocationKLCCTests.m */,
+				14C5CE091D584B7300EE011F /* Info.plist */,
+			);
+			path = testlocationKLCCTests;
+			sourceTree = "<group>";
+		};
+		14C5CE111D584B7300EE011F /* testlocationKLCCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14C5CE121D584B7300EE011F /* testlocationKLCCUITests.m */,
+				14C5CE141D584B7300EE011F /* Info.plist */,
+			);
+			path = testlocationKLCCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C5CDE71D584B7300EE011F /* testlocationKLCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C5CE171D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCC" */;
+			buildPhases = (
+				14C5CDE41D584B7300EE011F /* Sources */,
+				14C5CDE51D584B7300EE011F /* Frameworks */,
+				14C5CDE61D584B7300EE011F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testlocationKLCC;
+			productName = testlocationKLCC;
+			productReference = 14C5CDE81D584B7300EE011F /* testlocationKLCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14C5CE021D584B7300EE011F /* testlocationKLCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C5CE1A1D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCCTests" */;
+			buildPhases = (
+				14C5CDFF1D584B7300EE011F /* Sources */,
+				14C5CE001D584B7300EE011F /* Frameworks */,
+				14C5CE011D584B7300EE011F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C5CE051D584B7300EE011F /* PBXTargetDependency */,
+			);
+			name = testlocationKLCCTests;
+			productName = testlocationKLCCTests;
+			productReference = 14C5CE031D584B7300EE011F /* testlocationKLCCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14C5CE0D1D584B7300EE011F /* testlocationKLCCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C5CE1D1D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCCUITests" */;
+			buildPhases = (
+				14C5CE0A1D584B7300EE011F /* Sources */,
+				14C5CE0B1D584B7300EE011F /* Frameworks */,
+				14C5CE0C1D584B7300EE011F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14C5CE101D584B7300EE011F /* PBXTargetDependency */,
+			);
+			name = testlocationKLCCUITests;
+			productName = testlocationKLCCUITests;
+			productReference = 14C5CE0E1D584B7300EE011F /* testlocationKLCCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C5CDE01D584B7300EE011F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = keatooon;
+				TargetAttributes = {
+					14C5CDE71D584B7300EE011F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					14C5CE021D584B7300EE011F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 14C5CDE71D584B7300EE011F;
+					};
+					14C5CE0D1D584B7300EE011F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 14C5CDE71D584B7300EE011F;
+					};
+				};
+			};
+			buildConfigurationList = 14C5CDE31D584B7300EE011F /* Build configuration list for PBXProject "testlocationKLCC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C5CDDF1D584B7300EE011F;
+			productRefGroup = 14C5CDE91D584B7300EE011F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C5CDE71D584B7300EE011F /* testlocationKLCC */,
+				14C5CE021D584B7300EE011F /* testlocationKLCCTests */,
+				14C5CE0D1D584B7300EE011F /* testlocationKLCCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C5CDE61D584B7300EE011F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5CE3A1D588DA800EE011F /* 12StillHappyAtNight.gpx in Resources */,
+				14C5CE641D58BBE700EE011F /* 32KLCCPark.gpx in Resources */,
+				14C5CE441D5893B900EE011F /* 16WatchTower.gpx in Resources */,
+				14C5CE681D58C54000EE011F /* 1_1HammerShardStatue.gpx in Resources */,
+				14C5CE2B1D5874E800EE011F /* 5LakeSymphonyKLCC.gpx in Resources */,
+				14C5CE481D5897BE00EE011F /* 18FlowerPatternFloor.gpx in Resources */,
+				14C5CE661D58BC8300EE011F /* 3_2XMFountain.gpx in Resources */,
+				14C5CE331D587A9B00EE011F /* 9TripletsHeartWallArt.gpx in Resources */,
+				14C5CE541D58A2DA00EE011F /* 24ReflectingPool.gpx in Resources */,
+				14C5CE5A1D58B97A00EE011F /* 27WaterfallInThePark.gpx in Resources */,
+				14C5CDF21D584B7300EE011F /* art.scnassets in Resources */,
+				14C5CE311D5879E300EE011F /* 8MadarinOrientalWaterfallFountain.gpx in Resources */,
+				14C5CE521D58A07B00EE011F /* 23StonorFountain.gpx in Resources */,
+				14C5CE401D5890E300EE011F /* 15WaterDispenserKLCC.gpx in Resources */,
+				14C5CE251D5872AE00EE011F /* 3TamanKLCCMap.gpx in Resources */,
+				14C5CE4C1D589A7700EE011F /* 20GiantFoot.gpx in Resources */,
+				14C5CE501D589B8500EE011F /* 22PortableWaterFountain2.gpx in Resources */,
+				14C5CE461D58960D00EE011F /* 17LittleTortoise.gpx in Resources */,
+				14C5CDFD1D584B7300EE011F /* LaunchScreen.storyboard in Resources */,
+				14C5CE5E1D58BAD800EE011F /* 29KLCCSquarePools.gpx in Resources */,
+				14C5CDFA1D584B7300EE011F /* Assets.xcassets in Resources */,
+				14C5CE211D584BF400EE011F /* 1KLConventionCenterParkEntrance.gpx in Resources */,
+				14C5CE3E1D588F3000EE011F /* 14Atoms.gpx in Resources */,
+				14C5CE3C1D588EA700EE011F /* 13SayangiTamanAnda.gpx in Resources */,
+				14C5CE621D58BB8A00EE011F /* 31AGeniusNural.gpx in Resources */,
+				14C5CE231D5870FC00EE011F /* 2TheDinoPetrosainsMural.gpx in Resources */,
+				14C5CE4A1D5898A000EE011F /* 19ColourfulPlayground.gpx in Resources */,
+				14C5CE2D1D5877FB00EE011F /* 6DomeOfShoppingKLCC.gpx in Resources */,
+				14C5CE361D588CEC00EE011F /* 10MosqueInsignia.gpx in Resources */,
+				14C5CE291D58733F00EE011F /* 4MosaicCafeWaterFeature.gpx in Resources */,
+				14C5CDF81D584B7300EE011F /* Main.storyboard in Resources */,
+				14C5CE381D588D4A00EE011F /* 11TamanKLCCDirectory.gpx in Resources */,
+				14C5CE2F1D5878BF00EE011F /* 7PsisGiantFoot.gpx in Resources */,
+				14C5CE421D5891AB00EE011F /* 22_1PetronaTowersViewedFromJalanBinjai.gpx in Resources */,
+				14C5CE5C1D58BA4E00EE011F /* 28FountainOfFlexibleShapes.gpx in Resources */,
+				14C5CE4E1D589AC000EE011F /* 21KLCCParkTumpuanUnggasFountain.gpx in Resources */,
+				14C5CE561D58B86600EE011F /* 25TamanKLCC.gpx in Resources */,
+				14C5CE601D58BB3C00EE011F /* 30KLCCParkGarden.gpx in Resources */,
+				14C5CE581D58B92E00EE011F /* 26TamanKLCC2.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C5CE011D584B7300EE011F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C5CE0C1D584B7300EE011F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C5CDE41D584B7300EE011F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5CDF01D584B7300EE011F /* AppDelegate.m in Sources */,
+				14C5CDF51D584B7300EE011F /* GameViewController.m in Sources */,
+				14C5CDED1D584B7300EE011F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C5CDFF1D584B7300EE011F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5CE081D584B7300EE011F /* testlocationKLCCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14C5CE0A1D584B7300EE011F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5CE131D584B7300EE011F /* testlocationKLCCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14C5CE051D584B7300EE011F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C5CDE71D584B7300EE011F /* testlocationKLCC */;
+			targetProxy = 14C5CE041D584B7300EE011F /* PBXContainerItemProxy */;
+		};
+		14C5CE101D584B7300EE011F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14C5CDE71D584B7300EE011F /* testlocationKLCC */;
+			targetProxy = 14C5CE0F1D584B7300EE011F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14C5CDF61D584B7300EE011F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C5CDF71D584B7300EE011F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14C5CDFB1D584B7300EE011F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C5CDFC1D584B7300EE011F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C5CE151D584B7300EE011F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C5CE161D584B7300EE011F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14C5CE181D584B7300EE011F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testlocationKLCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14C5CE191D584B7300EE011F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testlocationKLCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14C5CE1B1D584B7300EE011F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = testlocationKLCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testlocationKLCC.app/testlocationKLCC";
+			};
+			name = Debug;
+		};
+		14C5CE1C1D584B7300EE011F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testlocationKLCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testlocationKLCC.app/testlocationKLCC";
+			};
+			name = Release;
+		};
+		14C5CE1E1D584B7300EE011F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = testlocationKLCCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testlocationKLCC;
+			};
+			name = Debug;
+		};
+		14C5CE1F1D584B7300EE011F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testlocationKLCCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testlocationKLCC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C5CDE31D584B7300EE011F /* Build configuration list for PBXProject "testlocationKLCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C5CE151D584B7300EE011F /* Debug */,
+				14C5CE161D584B7300EE011F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C5CE171D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C5CE181D584B7300EE011F /* Debug */,
+				14C5CE191D584B7300EE011F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14C5CE1A1D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C5CE1B1D584B7300EE011F /* Debug */,
+				14C5CE1C1D584B7300EE011F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14C5CE1D1D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C5CE1E1D584B7300EE011F /* Debug */,
+				14C5CE1F1D584B7300EE011F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C5CDE01D584B7300EE011F /* Project object */;
+}
