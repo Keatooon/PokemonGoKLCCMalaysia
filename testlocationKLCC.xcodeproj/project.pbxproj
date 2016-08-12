@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143ADE941D5CA4C700EA475A /* GoRadar.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 143ADE931D5CA4C700EA475A /* GoRadar.gpx */; };
+		143ADE9D1D5DA4C300EA475A /* SunwayPyramid.zip in Resources */ = {isa = PBXBuildFile; fileRef = 143ADE9B1D5DA4C300EA475A /* SunwayPyramid.zip */; };
+		143ADE9E1D5DA4C300EA475A /* SunwayPyramidAuto.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 143ADE9C1D5DA4C300EA475A /* SunwayPyramidAuto.gpx */; };
+		143ADEA01D5DA4DB00EA475A /* EggHatching.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 143ADE9F1D5DA4DB00EA475A /* EggHatching.gpx */; };
 		14C5CDED1D584B7300EE011F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5CDEC1D584B7300EE011F /* main.m */; };
 		14C5CDF01D584B7300EE011F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5CDEF1D584B7300EE011F /* AppDelegate.m */; };
 		14C5CDF21D584B7300EE011F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C5CDF11D584B7300EE011F /* art.scnassets */; };
@@ -71,6 +75,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143ADE931D5CA4C700EA475A /* GoRadar.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GoRadar.gpx; sourceTree = "<group>"; };
+		143ADE9B1D5DA4C300EA475A /* SunwayPyramid.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = SunwayPyramid.zip; sourceTree = "<group>"; };
+		143ADE9C1D5DA4C300EA475A /* SunwayPyramidAuto.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SunwayPyramidAuto.gpx; sourceTree = "<group>"; };
+		143ADE9F1D5DA4DB00EA475A /* EggHatching.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EggHatching.gpx; sourceTree = "<group>"; };
 		14C5CDE81D584B7300EE011F /* testlocationKLCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testlocationKLCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C5CDEC1D584B7300EE011F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14C5CDEE1D584B7300EE011F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +196,10 @@
 				14C5CE5F1D58BB3C00EE011F /* 30KLCCParkGarden.gpx */,
 				14C5CE611D58BB8A00EE011F /* 31AGeniusNural.gpx */,
 				14C5CE631D58BBE700EE011F /* 32KLCCPark.gpx */,
+				143ADE931D5CA4C700EA475A /* GoRadar.gpx */,
+				143ADE9B1D5DA4C300EA475A /* SunwayPyramid.zip */,
+				143ADE9C1D5DA4C300EA475A /* SunwayPyramidAuto.gpx */,
+				143ADE9F1D5DA4DB00EA475A /* EggHatching.gpx */,
 				14C5CDEA1D584B7300EE011F /* testlocationKLCC */,
 				14C5CE061D584B7300EE011F /* testlocationKLCCTests */,
 				14C5CE111D584B7300EE011F /* testlocationKLCCUITests */,
@@ -315,6 +327,7 @@
 				TargetAttributes = {
 					14C5CDE71D584B7300EE011F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WJURY2UM5J;
 					};
 					14C5CE021D584B7300EE011F = {
 						CreatedOnToolsVersion = 7.3;
@@ -359,6 +372,7 @@
 				14C5CE481D5897BE00EE011F /* 18FlowerPatternFloor.gpx in Resources */,
 				14C5CE661D58BC8300EE011F /* 3_2XMFountain.gpx in Resources */,
 				14C5CE331D587A9B00EE011F /* 9TripletsHeartWallArt.gpx in Resources */,
+				143ADE9E1D5DA4C300EA475A /* SunwayPyramidAuto.gpx in Resources */,
 				14C5CE541D58A2DA00EE011F /* 24ReflectingPool.gpx in Resources */,
 				14C5CE5A1D58B97A00EE011F /* 27WaterfallInThePark.gpx in Resources */,
 				14C5CDF21D584B7300EE011F /* art.scnassets in Resources */,
@@ -369,12 +383,14 @@
 				14C5CE4C1D589A7700EE011F /* 20GiantFoot.gpx in Resources */,
 				14C5CE501D589B8500EE011F /* 22PortableWaterFountain2.gpx in Resources */,
 				14C5CE461D58960D00EE011F /* 17LittleTortoise.gpx in Resources */,
+				143ADEA01D5DA4DB00EA475A /* EggHatching.gpx in Resources */,
 				14C5CDFD1D584B7300EE011F /* LaunchScreen.storyboard in Resources */,
 				14C5CE5E1D58BAD800EE011F /* 29KLCCSquarePools.gpx in Resources */,
 				14C5CDFA1D584B7300EE011F /* Assets.xcassets in Resources */,
 				14C5CE211D584BF400EE011F /* 1KLConventionCenterParkEntrance.gpx in Resources */,
 				14C5CE3E1D588F3000EE011F /* 14Atoms.gpx in Resources */,
 				14C5CE3C1D588EA700EE011F /* 13SayangiTamanAnda.gpx in Resources */,
+				143ADE941D5CA4C700EA475A /* GoRadar.gpx in Resources */,
 				14C5CE621D58BB8A00EE011F /* 31AGeniusNural.gpx in Resources */,
 				14C5CE231D5870FC00EE011F /* 2TheDinoPetrosainsMural.gpx in Resources */,
 				14C5CE4A1D5898A000EE011F /* 19ColourfulPlayground.gpx in Resources */,
@@ -382,6 +398,7 @@
 				14C5CE361D588CEC00EE011F /* 10MosqueInsignia.gpx in Resources */,
 				14C5CE291D58733F00EE011F /* 4MosaicCafeWaterFeature.gpx in Resources */,
 				14C5CDF81D584B7300EE011F /* Main.storyboard in Resources */,
+				143ADE9D1D5DA4C300EA475A /* SunwayPyramid.zip in Resources */,
 				14C5CE381D588D4A00EE011F /* 11TamanKLCCDirectory.gpx in Resources */,
 				14C5CE2F1D5878BF00EE011F /* 7PsisGiantFoot.gpx in Resources */,
 				14C5CE421D5891AB00EE011F /* 22_1PetronaTowersViewedFromJalanBinjai.gpx in Resources */,
@@ -559,10 +576,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testlocationKLCC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -570,10 +590,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testlocationKLCC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keatooon.testlocationKLCC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -644,6 +667,7 @@
 				14C5CE191D584B7300EE011F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C5CE1A1D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCCTests" */ = {
 			isa = XCConfigurationList;
@@ -652,6 +676,7 @@
 				14C5CE1C1D584B7300EE011F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C5CE1D1D584B7300EE011F /* Build configuration list for PBXNativeTarget "testlocationKLCCUITests" */ = {
 			isa = XCConfigurationList;
@@ -660,6 +685,7 @@
 				14C5CE1F1D584B7300EE011F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
