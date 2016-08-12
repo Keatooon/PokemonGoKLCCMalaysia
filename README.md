@@ -1,9 +1,10 @@
 # Updates:
 	
 Added 3 cool features: 
-1) Autopilot navigation for 74points near Sunway Pyramid (SunwayPyramidAuto.gpx)
-2) Auto Egg Hatching (Egg Hatching.gpx)
-3) Teleport to the location you want
+
+1. Autopilot navigation for 74points near Sunway Pyramid (SunwayPyramidAuto.gpx)
+2. Auto Egg Hatching (Egg Hatching.gpx)
+3. Teleport to the location you want
 
 
 Pokemon Go is the hottest game around right now, and its popularity is giving public-safety professionals pause.
